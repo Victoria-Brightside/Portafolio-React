@@ -1,20 +1,79 @@
-import "Navbar.css"
+import React from "react";
+
+import {
+    Nav,
+    NavLogo,
+    NavLink,
+    Bars,
+    NavMenu,
+    NavBtn,
+    NavBtnLink,
+} from "./NavbarElements";
+
 
 function Navbar() {
     return (
-            <section className="navbar">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#aboutme">Acerca de mí</a></li>
-                <li><a href="#misproyectos">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li class="imagen_nav"><a title="linkedin" href="www.linkedin.com/in/iikbrightside"><img
-                    src="./images/linkedin.svg"></a></li>
-                <li class="imagen_nav"><a title="github" href="https://github.com/Victoria-Brightside"><img
-                    src="./images/github.svg"></a></li>
-                <li class="imagen_nav"><a title="correo" href="https://www.mrsushi.mx/#!"><img src="./images/mail.svg"></a>
-                </li>
-            </section>
+        <>
+            <Nav>
+                <NavLogo to="/">
+                    Logo
+                </NavLogo>
+                <Bars />
 
+                <NavMenu>
+                    <NavLink
+                        to="/"
+                        activeStyle={{ color: 'black' }}
+                    >
+                        Home
+                    </NavLink>
+                    <NavLink
+                        to="/about"
+                        activeStyle={{ color: 'black' }}
+                    >
+                        About
+                    </NavLink>
+
+                    <NavLink
+                        to="/education"
+                        activeStyle={{ color: 'black' }}
+                    >
+                        Educación
+                    </NavLink>
+
+                    <NavLink
+                        to="/abilities"
+                        activeStyle={{ color: 'black' }}
+                    >
+                        Habilidades
+                    </NavLink>
+
+                    <NavLink
+                        to="/projects"
+                        activeStyle={{ color: 'black' }}
+                    >
+                        Proyectos
+                    </NavLink>
+                    
+
+                    <NavLink
+                        to="/contact"
+                        activeStyle={{ color: 'black' }}
+                    >
+                        Contact
+                    </NavLink>
+                    <NavLink
+                        to="/signin"
+                        activeStyle={{ color: 'black' }}
+                    >
+                        Sign In
+                    </NavLink>
+                    <NavBtn>
+                        <NavBtnLink to="/signup">Sign Up</NavBtnLink>
+                    </NavBtn>
+                </NavMenu>
+            </Nav>
+        </>
     );
 }
 
