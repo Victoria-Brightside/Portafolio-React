@@ -1,5 +1,6 @@
 import { FaBars } from "react-icons/fa";
 import { DiGithubBadge as GitLogo } from "react-icons/di";
+import { IoLogoLinkedin } from "react-icons/io";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -39,7 +40,7 @@ height: 100%;
 font-size: 1.5rem;
 cursor: pointer;
 &:hover {
-  color: black;
+  color: blue;
 }
 `;
 
@@ -66,10 +67,11 @@ export const NavMenu = styled.div`
 `;
 
 export const Git = styled(GitLogo)`
-object-fit:cover;
-}
+
 `;
 
+export const Linkedin = styled(IoLogoLinkedin)`
+`;
 
 export const NavBtn = styled.nav`
   display: flex;

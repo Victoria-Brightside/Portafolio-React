@@ -7,6 +7,7 @@ import {
     Bars,
     NavMenu,
     Git,
+    Linkedin,
     NavBtn,
     NavBtnLink,
 } from "./NavbarElements";
@@ -66,10 +67,10 @@ function Navbar() {
                     
 
                     <NavBtn>
-                        <NavBtnLink to="/signup">Sign Up</NavBtnLink>
+                        <NavBtnLink to="https://www.linkedin.com/in/iikbrightside/"><Linkedin size={50}/></NavBtnLink>
                     </NavBtn>
                     <NavBtn>
-                        <NavBtnLink to="https://github.com/Victoria-Brightside"><Git/></NavBtnLink>
+                        <NavBtnLink to="https://github.com/Victoria-Brightside"><Git size={50} /></NavBtnLink>
                     </NavBtn>
                     <NavBtn>
                         <NavBtnLink to="/signup">Sign Up</NavBtnLink>
