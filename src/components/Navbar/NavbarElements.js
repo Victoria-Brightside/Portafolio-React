@@ -8,9 +8,15 @@ export const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width:100%;
+    max-width: 1000px;
     padding: 0.2rem calc((100vw - 1000px) / 2);
     z-index: 12;
+    position: absolute;
+    top:0;
+    left:0;
 `;
+
 export const NavLogo = styled(Link)`
   cursor: pointer;
   color: #fff;
