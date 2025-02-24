@@ -1,7 +1,9 @@
+import Header from "../components/Header"
+
 function Home (){
     return (
         <>
-        <h1> Bienvenido a mi portafolio</h1>
+        <Header/>
         </>
     )
 }

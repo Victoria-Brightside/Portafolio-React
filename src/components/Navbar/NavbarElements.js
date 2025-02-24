@@ -1,12 +1,13 @@
 import { FaBars } from "react-icons/fa";
+import { DiGithubBadge as GitLogo } from "react-icons/di";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-    background: orangered;
+    background: black;
     height: 85px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     width:100%;
     max-width: 1000px;
@@ -18,7 +19,10 @@ export const Nav = styled.nav`
 `;
 
 export const NavLogo = styled(Link)`
-  cursor: pointer;
+position: absolute;
+  left: 10%;
+  transform: translateX(-50%);
+cursor: pointer;
   color: #fff;
   font-size: 2rem;
   text-decoration: none;
@@ -32,6 +36,7 @@ align-items: center;
 text-decoration: none;
 padding: 0 1rem;
 height: 100%;
+font-size: 1.5rem;
 cursor: pointer;
 &:hover {
   color: black;
@@ -42,11 +47,10 @@ export const Bars = styled(FaBars)`
   display: none;
   color: #fff;
   @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 75%);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0 3rem;
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -60,6 +64,12 @@ export const NavMenu = styled.div`
     display: none;
   }
 `;
+
+export const Git = styled(GitLogo)`
+object-fit:cover;
+}
+`;
+
 
 export const NavBtn = styled.nav`
   display: flex;
@@ -81,7 +91,7 @@ export const NavBtnLink = styled(Link)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  margin-left: 24px;
+  margin-left: 5px;
   &:hover {
       transition: all 0.2s ease-in-out;
     background: #fff;

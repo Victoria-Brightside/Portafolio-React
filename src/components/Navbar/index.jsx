@@ -6,6 +6,7 @@ import {
     NavLink,
     Bars,
     NavMenu,
+    Git,
     NavBtn,
     NavBtnLink,
 } from "./NavbarElements";
@@ -62,12 +63,14 @@ function Navbar() {
                     >
                         Contact
                     </NavLink>
-                    <NavLink
-                        to="/signin"
-                        activeStyle={{ color: 'black' }}
-                    >
-                        Sign In
-                    </NavLink>
+                    
+
+                    <NavBtn>
+                        <NavBtnLink to="/signup">Sign Up</NavBtnLink>
+                    </NavBtn>
+                    <NavBtn>
+                        <NavBtnLink to="https://github.com/Victoria-Brightside"><Git/></NavBtnLink>
+                    </NavBtn>
                     <NavBtn>
                         <NavBtnLink to="/signup">Sign Up</NavBtnLink>
                     </NavBtn>
