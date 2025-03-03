@@ -8,6 +8,7 @@ import {
     NavMenu,
     Git,
     Linkedin,
+    Email,
     NavBtn,
     NavBtnLink,
 } from "./NavbarElements";
@@ -62,7 +63,7 @@ function Navbar() {
                         to="/contact"
                         activeStyle={{ color: 'black' }}
                     >
-                        Contact
+                        Contacto
                     </NavLink>
                     
 
@@ -73,7 +74,7 @@ function Navbar() {
                         <NavBtnLink to="https://github.com/Victoria-Brightside"><Git size={50} /></NavBtnLink>
                     </NavBtn>
                     <NavBtn>
-                        <NavBtnLink to="/signup">Sign Up</NavBtnLink>
+                        <NavBtnLink to="/signup"><Email size={50}/></NavBtnLink>
                     </NavBtn>
                 </NavMenu>
             </Nav>

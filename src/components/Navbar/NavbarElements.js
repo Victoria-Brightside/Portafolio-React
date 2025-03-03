@@ -1,6 +1,7 @@
 import { FaBars } from "react-icons/fa";
 import { DiGithubBadge as GitLogo } from "react-icons/di";
 import { IoLogoLinkedin } from "react-icons/io";
+import { MdEmail } from "react-icons/md";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -21,7 +22,7 @@ export const Nav = styled.nav`
 
 export const NavLogo = styled(Link)`
 position: absolute;
-  left: 10%;
+  left: 5%;
   transform: translateX(-50%);
 cursor: pointer;
   color: #fff;
@@ -35,7 +36,7 @@ color: #fff;
 display: flex;
 align-items: center;
 text-decoration: none;
-padding: 0 1rem;
+padding: 0 1.5rem;
 height: 100%;
 font-size: 1.5rem;
 cursor: pointer;
@@ -59,8 +60,9 @@ export const Bars = styled(FaBars)`
 
 export const NavMenu = styled.div`
   display: flex;
+  justify-content: flex-start;
   align-items: center;
-  margin-right: -24px;
+  width:100%;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -71,6 +73,9 @@ export const Git = styled(GitLogo)`
 `;
 
 export const Linkedin = styled(IoLogoLinkedin)`
+`;
+
+export const Email = styled(MdEmail)`
 `;
 
 export const NavBtn = styled.nav`
