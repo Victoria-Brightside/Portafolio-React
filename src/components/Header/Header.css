@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+
 .hero-section {
     width: 100%;
-    height:100vh;
+    height: 100vh;
 }
 
-.hero-section p {
+.heromotivation {
     color: white;
     backdrop-filter: blur(3px);
     text-shadow: 1px 2px 12px rgba(0, 0, 0, 0.6);
@@ -16,11 +19,55 @@
 
 .hero-section video {
     width: 100%;
-    height:100vh;
+    height: 100vh;
     object-fit: cover;
-    position:absolute;
-    top:0;
-    left:0;
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: -1;
+}
+
+.rol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80vw;
+    height: 100vh;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+
+}
+
+.me {
+    font-size: 6.5rem;
+    padding: 0;
+    margin:0;
+   
+}
+
+.rol p {
+    font-size: 2rem;
+    padding: ;
+    margin: 0 5em;
+}
+
+
+@media screen and (max-width: 768px) {
+    .heromotivation {
+        display: none;
+    }
+
+    .rol {
+        align-items: center;
+    }
+
+    .me {
+        font-size: 3rem;
+        flex-wrap: nowrap;
+       
+    }
 
 }

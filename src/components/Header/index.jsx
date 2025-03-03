@@ -8,6 +8,10 @@ function Header() {
                     <source src="/assets/estrellas.mp4" type="video/mp4" />
                     Tu navegador no soporta videos HTML5.
                 </video>
+                <div className="rol">
+                <h1 className="me">Victoria Bernal</h1>
+                <p>Front-End Developer</p>
+                </div>
                 </section>
          );
         }
