@@ -1,8 +1,9 @@
+import Aboutme from "../components/Aboutme/index"
 
 function About (){
     return (
         <>
-        <h1>Acerca de mí</h1>
+        <Aboutme/>
         </>
     )
 }
