@@ -1,8 +1,9 @@
+import Abilitiestech from "../components/Abilitiestech/index"
 
 function Abilities (){
 return (
 <>
-<h1>Habilidades</h1>
+<Abilitiestech/>
 </>
 )
 
