@@ -6,7 +6,7 @@ function Abilitiestech() {
 
     return (
         <section className="abilities_container">
-            <h1>Habilidades</h1>
+            <h1>Habilidades tecnológicas</h1>
             <section className="supergrid">
                 {
                     habilidades.map(habilidad =>
