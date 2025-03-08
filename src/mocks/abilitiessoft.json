@@ -1,0 +1,25 @@
+{
+    "abilities":[
+       {
+          "id":"8",
+          "name":"Amor por el aprendizaje",
+          "image":"assets/aprendizaje.jpg"
+       },
+       {
+          "id":"9",
+          "name":"Resiliencia",
+          "image":"/assets/resiliencia.jpg"
+       },
+       {
+        "id":"10",
+        "name":"Trabajo en equipo",
+        "image":"/assets/equipo.jpg"
+     },
+     {
+        "id":"11",
+        "name":"Comunicación asertiva",
+        "image":"/assets/comunicacion.jpg"
+     }
+   
+    ]
+ }  
