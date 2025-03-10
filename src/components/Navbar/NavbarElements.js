@@ -12,12 +12,12 @@ export const Nav = styled.nav`
     justify-content: flex-end;
     align-items: center;
     width:100%;
-    max-width: 1000px;
     padding: 0.2rem calc((100vw - 1000px) / 2);
     z-index: 12;
-    position: absolute;
+  position: absolute;
     top:0;
     left:0;
+    box-sizing:border-box;
 `;
 
 export const NavLogo = styled(Link)`
