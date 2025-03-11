@@ -22,8 +22,6 @@ function App() {
         <Route path="/education" element={<Education />} />
         <Route path="/abilities" element={<Abilities />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
       </Routes>
     </BrowserRouter>
   )

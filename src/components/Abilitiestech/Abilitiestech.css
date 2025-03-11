@@ -82,6 +82,7 @@
 
     .supergrid {
         justify-content: center;
+        gap: 1rem 0.5rem;
     }
 
     .card{

@@ -1,8 +1,9 @@
+import Educationme from "../components/Educationme/index"
 
 function Education() {
     return (
         <>
-            <h1> Educación </h1>
+            <Educationme/>
         </>
     )
 }

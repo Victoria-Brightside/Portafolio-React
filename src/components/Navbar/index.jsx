@@ -38,13 +38,6 @@ function Navbar() {
                     </NavLink>
 
                     <NavLink
-                        to="/education"
-                        activeStyle={{ color: 'black' }}
-                    >
-                        Educación
-                    </NavLink>
-
-                    <NavLink
                         to="/abilities"
                         activeStyle={{ color: 'black' }}
                     >
@@ -56,6 +49,13 @@ function Navbar() {
                         activeStyle={{ color: 'black' }}
                     >
                         Proyectos
+                    </NavLink>
+
+                    <NavLink
+                        to="/education"
+                        activeStyle={{ color: 'black' }}
+                    >
+                        Educacion
                     </NavLink>
                     
 
