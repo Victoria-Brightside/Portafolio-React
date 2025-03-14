@@ -55,7 +55,7 @@ function Navbar() {
                         to="/education"
                         activeStyle={{ color: 'black' }}
                     >
-                        Educacion
+                        Educación
                     </NavLink>
                     
 
