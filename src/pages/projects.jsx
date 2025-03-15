@@ -1,7 +1,11 @@
-function Project (){
-    <>
-    <h1> Proyectos </h1>
-    </>
+import Project from "../components/Project/index"
+
+function Projects() {
+    return (
+        <>
+            <Project />
+        </>
+    )
 }
 
-export default Project
+export default Projects
