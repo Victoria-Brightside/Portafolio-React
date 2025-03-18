@@ -14,9 +14,9 @@ function Abilitiestech() {
                     {
                         habilidades.map(habilidad =>
 
-                            <article className="card" key={habilidad.id}>
-                                <img src={habilidad.image} />
-                                <p>{habilidad.language}</p>
+                            <article className="abilities_card" key={habilidad.id}>
+                                <img className="abilities_img" src={habilidad.image} />
+                                <p className="abilities_paragraph">{habilidad.language}</p>
                             </article>
 
                         )
@@ -30,9 +30,9 @@ function Abilitiestech() {
                     {
                         soft.map(supersoft =>
 
-                            <article className="card" key={supersoft.id}>
-                                <img src={supersoft.image} />
-                                <p>{supersoft.name}</p>
+                            <article className="abilities_card" key={supersoft.id}>
+                                <img className="abilities_img" src={supersoft.image} />
+                                <p className="abilities_paragraph">{supersoft.name}</p>
                             </article>
 
                         )
