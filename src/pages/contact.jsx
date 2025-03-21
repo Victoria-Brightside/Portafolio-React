@@ -1,8 +1,9 @@
+import Contacto from "../components/Contacto/index"
 
 function Contact () {
     return(
     <>
-    <h1> Contactame</h1>
+    <Contacto/>
     </>
     )
 }
