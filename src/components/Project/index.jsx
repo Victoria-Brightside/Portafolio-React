@@ -15,8 +15,8 @@ function Project() {
                             <div className="card_content">
                                 <h2 className="card_title"> {proyecto.name}</h2>
                                 <p className="card_body">{proyecto.description}</p>
-                                <a href={proyecto.link1} className="button_code"> Ver código</a>
-                                <a href={proyecto.link2} className="button_view"> Ver proyecto</a>
+                                <a href={proyecto.link1} className="button"> Ver código</a>
+                                <a href={proyecto.link2} className="button"> Ver proyecto</a>
                             </div>
                         </article>
 
