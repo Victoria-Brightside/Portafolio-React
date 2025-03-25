@@ -11,10 +11,20 @@ import {
     Email,
     NavBtn,
     NavBtnLink,
+    CopyButton,
 } from "./NavbarElements";
 
 
 function Navbar() {
+
+    const email = "seier.bernal@gmail.com";
+
+    const handleCopy = () => {
+        navigator.clipboard.writeText(email);
+        alert("Correo de contacto copiado al portapapeles!");
+    };
+
+
     return (
         <>
             <Nav>
@@ -57,7 +67,7 @@ function Navbar() {
                     >
                         Educación
                     </NavLink>
-                    
+
 
                     <NavLink
                         to="/contact"
@@ -65,16 +75,16 @@ function Navbar() {
                     >
                         Contacto
                     </NavLink>
-                    
+
 
                     <NavBtn>
-                        <NavBtnLink to="https://www.linkedin.com/in/iikbrightside/"><Linkedin size={50}/></NavBtnLink>
+                        <NavBtnLink to="https://www.linkedin.com/in/iikbrightside/"><Linkedin size={50} /></NavBtnLink>
                     </NavBtn>
                     <NavBtn>
                         <NavBtnLink to="https://github.com/Victoria-Brightside"><Git size={50} /></NavBtnLink>
                     </NavBtn>
                     <NavBtn>
-                        <NavBtnLink to="/signup"><Email size={50}/></NavBtnLink>
+                        <CopyButton onClick={handleCopy}><Email size={50} /></CopyButton>
                     </NavBtn>
                 </NavMenu>
             </Nav>

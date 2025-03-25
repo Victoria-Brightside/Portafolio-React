@@ -105,3 +105,19 @@ export const NavBtnLink = styled(Link)`
     color: #808080;
   }
 `;
+
+export const CopyButton = styled.button`
+    border-radius: 4px;
+    background: transparent;
+    padding: 10px 22px;
+    color: #fff;
+    outline: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-left: 5px;
+    &:hover {
+        background: #fff;
+        color: #808080;
+    }
+`;
