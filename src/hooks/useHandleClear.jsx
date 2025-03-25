@@ -19,8 +19,7 @@ function useHandleClear() {
         setFormData({ name: "", email: "", message: "" });
     };
 
-    return (
-        { formData, handleChange, handleClear });
+    return {formData, handleChange, handleClear};
 
 }
 

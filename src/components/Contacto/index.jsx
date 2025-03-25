@@ -22,13 +22,16 @@ function Contacto() {
         <>
             <section className="contacto_container">
                 <h1>Contacto</h1>
-                <article className='image_contact_container_'>
-                    {state.succeeded && <p>Thanks for your message!</p>}
-                    
+                <article className="image_contact_container">
+                    <div className="solo_image">
+                    <img className="contact_image" src="/assets/letter.png"/>
+                    <p>¡Gracias por tu mensaje!</p>
+                    </div>
+                
                     <section className="form_container">
                         <form className="fs-form" onSubmit={handleEventSubmit}>
                             <div className="fs-field">
-                                <label className="fs-label" htmlFor="name">Your Name</label>
+                                <label className="fs-label" htmlFor="name">Nombre</label>
                                 <input
                                     className="fs-input"
                                     id="name"
@@ -54,7 +57,7 @@ function Contacto() {
                                 </p>
                             </div>
                             <div className="fs-field">
-                                <label className="fs-label" htmlFor="message">Message</label>
+                                <label className="fs-label" htmlFor="message">Mensaje</label>
                                 <textarea
                                     className="fs-textarea"
                                     id="message"
@@ -63,7 +66,7 @@ function Contacto() {
                                     onChange={handleChange}
                                     required
                                 />
-                                <p className="fs-description">What would you like to discuss?</p>
+                                <p className="fs-description">¿Que te gustarìa discutir?</p>
                             </div>
                             <div className="fs-button-group">
                                 <button className="fs-button" type="submit" disabled={state.submitting}>

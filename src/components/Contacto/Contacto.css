@@ -24,8 +24,28 @@
     margin-top: 135px;
 }
 
+.image_contact_container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.solo_image{
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.contact_image{
+    max-width: 30vw;
+    height: auto;
+    border-radius: 2rem;
+}
+
 .form_container {
-    display: flex;
+    flex: 1;
     color: aliceblue;
 }
 
@@ -113,3 +133,18 @@
     padding: 0.5rem 0.75rem;
     resize: vertical;
   }
+
+  @media (max-width: 768px) {
+    .image_contact_container {
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .contact_image {
+        max-width: 70%;
+    }
+
+    .form_container {
+        max-width: 75%;
+    }
+}
