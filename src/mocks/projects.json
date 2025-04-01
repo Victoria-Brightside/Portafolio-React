@@ -3,7 +3,7 @@
         {
             "id": "1",
             "name": "HTML",
-            "image": "assets/html.png",
+            "image": "https://media.contentapi.ea.com/content/dam/eacom/images/2020/09/ea-featured-image-ea-desktop-beta.jpg.adapt.crop191x100.1200w.jpg",
             "description": "Página web tipo blog",
             "link1": "wwww.blabla.com",
             "link2": "wwww.blabla.com"

@@ -11,7 +11,7 @@ function Project() {
             <section className="project_grid">
                 {
                     proyectos.map(proyecto => 
-                        <article key={proyecto.id} className="card">
+                        <article key={proyecto.id} className="card" style={{ backgroundImage: `url(${proyecto.image})` }}>
                             <div className="card_content">
                                 <h2 className="card_title"> {proyecto.name}</h2>
                                 <p className="card_body">{proyecto.description}</p>
