@@ -10,11 +10,11 @@
         },
         {
             "id": "2",
-            "name": "HTML",
-            "image": "assets/html.png",
-            "description": "Página web tipo blog",
-            "link1": "wwww.blabla.com",
-            "link2": "wwww.blabla.com"
+            "name": "Alura Geek",
+            "image": "assets/alura_geek.jpg",
+            "description": "Aplicación web que permite gestionar una lista de productos (mostrar,agregar y eliminar) a través de una base de datos en API Mock.",
+            "link1": "https://github.com/Victoria-Brightside/Alura_geek",
+            "link2": "https://victoria-brightside.github.io/Alura_geek/"
         },
         {
             "id": "3",
