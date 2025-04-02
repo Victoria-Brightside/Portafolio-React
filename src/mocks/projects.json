@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": "1",
-            "name": "HTML",
+            "name": "Buscador películas",
             "image": "https://media.contentapi.ea.com/content/dam/eacom/images/2020/09/ea-featured-image-ea-desktop-beta.jpg.adapt.crop191x100.1200w.jpg",
             "description": "Página web tipo blog",
             "link1": "wwww.blabla.com",
@@ -10,7 +10,7 @@
         },
         {
             "id": "2",
-            "name": "Alura Geek",
+            "name": "Ticketmaster",
             "image": "assets/alura_geek.jpg",
             "description": "Aplicación web que permite gestionar una lista de productos (mostrar,agregar y eliminar) a través de una base de datos en API Mock.",
             "link1": "https://github.com/Victoria-Brightside/Alura_geek",
@@ -18,27 +18,27 @@
         },
         {
             "id": "3",
-            "name": "HTML",
-            "image": "assets/html.png",
-            "description": "Página web tipo blog",
-            "link1": "wwww.blabla.com",
-            "link2": "wwww.blabla.com"
+            "name": "Alura Geek",
+            "image": "assets/alura_geek.jpg",
+            "description": "Aplicación web que permite gestionar una lista de productos (mostrar,agregar y eliminar) a través de una base de datos en API Mock.",
+            "link1": "https://github.com/Victoria-Brightside/Alura_geek",
+            "link2": "https://victoria-brightside.github.io/Alura_geek/"
         },
         {
             "id": "4",
-            "name": "HTML",
-            "image": "assets/html.png",
+            "name": "SpaceDust",
+            "image": "https://media.contentapi.ea.com/content/dam/eacom/images/2020/09/ea-featured-image-ea-desktop-beta.jpg.adapt.crop191x100.1200w.jpg",
             "description": "Página web tipo blog",
             "link1": "wwww.blabla.com",
             "link2": "wwww.blabla.com"
         },
         {
             "id": "5",
-            "name": "HTML",
-            "image": "assets/html.png",
-            "description": "Página web tipo blog",
-            "link1": "wwww.blabla.com",
-            "link2": "wwww.blabla.com"
+            "name": "Generador Contraseñas",
+            "image": "assets/genera_contra.png",
+            "description": "Aplicación web que permite generar contraseñas seguras con características específicas y clasificar dicha contraseña según su nivel de seguridad (débil, media o fuerte).",
+            "link1": "https://github.com/Victoria-Brightside/Password_Generator",
+            "link2": "https://victoria-brightside.github.io/Password_Generator/"
         },
         {
             "id": "6",
