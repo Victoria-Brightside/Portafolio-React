@@ -27,9 +27,9 @@
         {
             "id": "4",
             "name": "SpaceDust",
-            "image": "https://media.contentapi.ea.com/content/dam/eacom/images/2020/09/ea-featured-image-ea-desktop-beta.jpg.adapt.crop191x100.1200w.jpg",
-            "description": "Página web tipo blog",
-            "link1": "wwww.blabla.com",
+            "image": "assets/space_app.png",
+            "description": "Proyecto web diseñado para explorar imágenes astronómicas proporcionadas por la  API de la NASA (APOD: Astronomy Picture of the Day)",
+            "link1": "https://github.com/Victoria-Brightside/SpaceDustApp",
             "link2": "wwww.blabla.com"
         },
         {
