@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+
 
 import {
     Nav,
@@ -12,10 +13,13 @@ import {
     NavBtn,
     NavBtnLink,
     CopyButton,
+    NavbarWrapper,
 } from "./NavbarElements";
+import { SiRedhatopenshift } from "react-icons/si";
 
 
 function Navbar() {
+    const [open, setOpen] = useState(false);
 
     const email = "seier.bernal@gmail.com";
 
@@ -24,6 +28,9 @@ function Navbar() {
         alert("Correo de contacto copiado al portapapeles!");
     };
 
+    const handleClick = () => {
+        setOpen(!open);
+    };
 
     return (
         <>
@@ -31,7 +38,15 @@ function Navbar() {
                 <NavLogo to="/">
                     Logo
                 </NavLogo>
-                <Bars />
+                <NavbarWrapper open={open}>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/about">Acerca de mí</NavLink>
+                    <NavLink to="/abilities">Habilidades</NavLink>
+                    <NavLink to="/projects">Proyectos</NavLink>
+                    <NavLink to="/education">Educación</NavLink>
+                    <NavLink to="/contact">Contacto</NavLink>
+                </NavbarWrapper>
+                <Bars open={open} onClick={handleClick} />
 
                 <NavMenu>
                     <NavLink
@@ -44,7 +59,7 @@ function Navbar() {
                         to="/about"
                         activeStyle={{ color: 'black' }}
                     >
-                        About
+                        Acerca de mí
                     </NavLink>
 
                     <NavLink

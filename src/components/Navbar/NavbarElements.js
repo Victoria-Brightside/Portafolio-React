@@ -14,10 +14,13 @@ export const Nav = styled.nav`
     width:100%;
     padding: 0.2rem calc((100vw - 1000px) / 2);
     z-index: 12;
-  position: absolute;
+    position: absolute;
     top:0;
     left:0;
     box-sizing:border-box;
+@media screen and (max-width: 768px) {
+  position: fixed;
+}
 `;
 
 export const NavLogo = styled(Link)`
@@ -43,6 +46,7 @@ cursor: pointer;
 &:hover {
   color: blue;
 }
+  
 `;
 
 export const Bars = styled(FaBars)`
@@ -120,4 +124,25 @@ export const CopyButton = styled.button`
         background: #fff;
         color: #808080;
     }
+`;
+
+export const NavbarWrapper = styled.nav`
+display: none;
+  
+  @media screen and (max-width: 768px) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: turquoise;
+  color: grey;
+  position: fixed;
+  top: 11vh;
+  right: ${props => (props.open ? "0" : "-100%")};
+  width: 100%;
+  height: 90vh;
+  transition: right 0.3s linear;
+
+  }
+
 `;
