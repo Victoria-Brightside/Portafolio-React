@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { FaBars, FaTimes } from "react-icons/fa";
 
 import {
     Nav,
@@ -46,7 +46,9 @@ function Navbar() {
                     <NavLink to="/education">Educación</NavLink>
                     <NavLink to="/contact">Contacto</NavLink>
                 </NavbarWrapper>
-                <Bars open={open} onClick={handleClick} />
+                <Bars onClick={handleClick}>
+                {open ? <FaTimes /> : <FaBars />}
+                </Bars>
 
                 <NavMenu>
                     <NavLink

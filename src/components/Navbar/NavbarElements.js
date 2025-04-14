@@ -1,4 +1,3 @@
-import { FaBars } from "react-icons/fa";
 import { DiGithubBadge as GitLogo } from "react-icons/di";
 import { IoLogoLinkedin } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
@@ -49,7 +48,7 @@ cursor: pointer;
   
 `;
 
-export const Bars = styled(FaBars)`
+export const Bars = styled.div`
   display: none;
   color: #fff;
   @media screen and (max-width: 768px) {
@@ -60,6 +59,11 @@ export const Bars = styled(FaBars)`
     font-size: 1.8rem;
     cursor: pointer;
   }
+
+svg {
+    transition: transform 0.3s ease;
+  }
+
 `;
 
 export const NavMenu = styled.div`
