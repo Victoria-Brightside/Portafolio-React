@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "/assets/logoviik.png";
 
 import {
     Nav,
     NavLogo,
+    LogoImg,
     NavLink,
     Bars,
     NavMenu,
@@ -36,7 +38,7 @@ function Navbar() {
         <>
             <Nav>
                 <NavLogo to="/">
-                    Logo
+                <LogoImg src={logo} alt="logo" />
                 </NavLogo>
                 <NavbarWrapper open={open}>
                     <NavLink to="/">Home</NavLink>

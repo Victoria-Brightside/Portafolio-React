@@ -30,7 +30,11 @@ cursor: pointer;
   color: #fff;
   font-size: 2rem;
   text-decoration: none;
+`;
 
+export const LogoImg = styled.img`
+  height: 100px;
+  width: auto;
 `;
 
 export const NavLink = styled(Link)`
