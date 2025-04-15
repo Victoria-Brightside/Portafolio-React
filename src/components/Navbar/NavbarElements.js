@@ -138,7 +138,7 @@ display: none;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background: turquoise;
+  background: #008080;
   color: grey;
   position: fixed;
   top: 11vh;
