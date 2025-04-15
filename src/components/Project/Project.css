@@ -125,7 +125,7 @@
   transition: all 0.05s ease-in-out;
   text-decoration: none;
   margin: 5px;
-  gap:8px;
+  gap: 8px;
 }
 
 .button:hover,
@@ -137,7 +137,7 @@
 }
 
 .button:active {
-  transform: scale(0.95);       
+  transform: scale(0.95);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -156,4 +156,31 @@
     scroll-behavior: auto !important;
     transition-delay: 0ms !important;
   }
+}
+
+@media screen and (max-width: 900px) {
+
+  .project_container {
+    height: 550vh;
+  }
+
+  .project_grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 4rem;
+    padding: 1rem;
+  }
+
+  .card {
+    max-width: 50%;
+    /* ocupa buena parte de la pantalla sin estirarse demasiado */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project_container h1 {
+    font-size: 2rem;
+    margin-top: 9rem;
+  }
+
 }
