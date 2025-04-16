@@ -24,17 +24,19 @@ export const Nav = styled.nav`
 
 export const NavLogo = styled(Link)`
 position: absolute;
-  left: 5%;
+  left: 100px;
+  top:1px;
   transform: translateX(-50%);
 cursor: pointer;
   color: #fff;
   font-size: 2rem;
   text-decoration: none;
+
 `;
 
 export const LogoImg = styled.img`
-  height: 100px;
-  width: auto;
+height: 85px;
+  width: 100%;
 `;
 
 export const NavLink = styled(Link)`
