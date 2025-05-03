@@ -11,10 +11,10 @@
         {
             "id": "2",
             "name": "Ticketmaster",
-            "image": "assets/alura_geek.jpg",
-            "description": "Aplicación web que permite gestionar una lista de productos (mostrar,agregar y eliminar) a través de una base de datos en API Mock.",
-            "link1": "https://github.com/Victoria-Brightside/Alura_geek",
-            "link2": "https://victoria-brightside.github.io/Alura_geek/"
+            "image": "assets/ticketmaster.jpg",
+            "description": "Aplicación web desarrollada con React que permite buscar eventos y ver detalles de dichos eventos utilizando la API de Ticketmaster.",
+            "link1": "https://github.com/Victoria-Brightside/ticketmaster",
+            "link2": "https://victoria-brightside.github.io/ticketmaster/"
         },
         {
             "id": "3",
