@@ -41,7 +41,7 @@ function Navbar() {
                 <LogoImg src={logo} alt="logo" />
                 </NavLogo>
                 <NavbarWrapper open={open}>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/">Inicio</NavLink>
                     <NavLink to="/about">Acerca de mí</NavLink>
                     <NavLink to="/abilities">Habilidades</NavLink>
                     <NavLink to="/projects">Proyectos</NavLink>
@@ -57,7 +57,7 @@ function Navbar() {
                         to="/"
                         activeStyle={{ color: 'black' }}
                     >
-                        Home
+                        Inicio
                     </NavLink>
                     <NavLink
                         to="/about"

@@ -3,10 +3,10 @@
         {
             "id": "1",
             "name": "Buscador películas",
-            "image": "https://media.contentapi.ea.com/content/dam/eacom/images/2020/09/ea-featured-image-ea-desktop-beta.jpg.adapt.crop191x100.1200w.jpg",
-            "description": "Página web tipo blog",
-            "link1": "wwww.blabla.com",
-            "link2": "wwww.blabla.com"
+            "image": "assets/busca_peliculas.png",
+            "description": "Aplicación web para buscar películas mediante la API de The Open Movie Database. Permite ingresar el título de una película y obtener información de la misma.",
+            "link1": "https://github.com/Victoria-Brightside/Buscador_peliculas",
+            "link2": "https://victoria-brightside.github.io/Buscador_peliculas/"
         },
         {
             "id": "2",
@@ -39,22 +39,6 @@
             "description": "Aplicación web que permite generar contraseñas seguras con características específicas y clasificar dicha contraseña según su nivel de seguridad (débil, media o fuerte).",
             "link1": "https://github.com/Victoria-Brightside/Password_Generator",
             "link2": "https://victoria-brightside.github.io/Password_Generator/"
-        },
-        {
-            "id": "6",
-            "name": "HTML",
-            "image": "assets/html.png",
-            "description": "Página web tipo blog",
-            "link1": "wwww.blabla.com",
-            "link2": "wwww.blabla.com"
-        },
-        {
-            "id": "7",
-            "name": "HTML",
-            "image": "assets/html.png",
-            "description": "Página web tipo blog",
-            "link1": "wwww.blabla.com",
-            "link2": "wwww.blabla.com"
         }
     ]
 }

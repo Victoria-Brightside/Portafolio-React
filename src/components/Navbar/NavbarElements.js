@@ -76,7 +76,7 @@ export const NavMenu = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width:100%;
+  width:95%;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -105,7 +105,7 @@ export const NavBtn = styled.nav`
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
   background: transparent;
-  padding: 10px 22px;
+  padding: 6px 14px;
   color: #fff;
   outline: none;
   border: 1px solid #fff;
@@ -123,7 +123,7 @@ export const NavBtnLink = styled(Link)`
 export const CopyButton = styled.button`
     border-radius: 4px;
     background: transparent;
-    padding: 10px 22px;
+    padding: 6px 14px;
     color: #fff;
     outline: none;
     border: 1px solid #fff;
