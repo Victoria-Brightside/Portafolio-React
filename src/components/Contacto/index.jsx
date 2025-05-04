@@ -32,7 +32,7 @@ return (
             <h1>Contacto</h1>
             <article className="image_contact_container">
                 <div className="solo_image">
-                    <img className="contact_image" src="/assets/letter.png" />
+                    <img className="contact_image" src="./assets/letter.png" />
                     <p>¡Gracias por tu mensaje!</p>
                     {successMessage && <p className="success_msg">Formulario enviado con éxito</p>}
                 </div>

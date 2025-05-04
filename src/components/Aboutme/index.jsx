@@ -15,7 +15,7 @@ function Aboutme() {
                         </p>
                     </article>
                     <article className="about_photo">
-                        <img src="/assets/developer.jpg" className="photo" />
+                        <img src="./assets/developer.jpg" className="photo" />
                         <p className="info">
                             Si te interesa conocer más sobre mi trabajo o colaborar en algún proyecto, ¡estaré encantada de conectar contigo!<br /><br />
                         </p>
