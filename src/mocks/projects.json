@@ -3,7 +3,7 @@
         {
             "id": "1",
             "name": "Buscador películas",
-            "image": "./assets/busca_peliculas.png",
+            "image": "/Portafolio-React/assets/busca_peliculas.png",
             "description": "Aplicación web para buscar películas mediante la API de The Open Movie Database. Permite ingresar el título de una película y obtener información de la misma.",
             "link1": "https://github.com/Victoria-Brightside/Buscador_peliculas",
             "link2": "https://victoria-brightside.github.io/Buscador_peliculas/"
@@ -11,7 +11,7 @@
         {
             "id": "2",
             "name": "Ticketmaster",
-            "image": "./assets/ticketmaster.jpg",
+            "image": "/Portafolio-React/assets/ticketmaster.jpg",
             "description": "Aplicación web desarrollada con React que permite buscar eventos y ver detalles de dichos eventos utilizando la API de Ticketmaster.",
             "link1": "https://github.com/Victoria-Brightside/ticketmaster",
             "link2": "https://victoria-brightside.github.io/ticketmaster/"
@@ -19,7 +19,7 @@
         {
             "id": "3",
             "name": "Alura Geek",
-            "image": "./assets/alura_geek.jpg",
+            "image": "/Portafolio-React/assets/alura_geek.jpg",
             "description": "Aplicación web que permite gestionar una lista de productos (mostrar,agregar y eliminar) a través de una base de datos en API Mock.",
             "link1": "https://github.com/Victoria-Brightside/Alura_geek",
             "link2": "https://victoria-brightside.github.io/Alura_geek/"
@@ -27,7 +27,7 @@
         {
             "id": "4",
             "name": "SpaceDust",
-            "image": "./assets/space_app.png",
+            "image": "/Portafolio-React/assets/space_app.png",
             "description": "Proyecto web diseñado para explorar imágenes astronómicas proporcionadas por la  API de la NASA (APOD: Astronomy Picture of the Day)",
             "link1": "https://github.com/Victoria-Brightside/SpaceDustApp",
             "link2": "wwww.blabla.com"
@@ -35,7 +35,7 @@
         {
             "id": "5",
             "name": "Generador Contraseñas",
-            "image": "./assets/genera_contra.png",
+            "image": "/Portafolio-React/assets/genera_contra.png",
             "description": "Aplicación web que permite generar contraseñas seguras con características específicas y clasificar dicha contraseña según su nivel de seguridad (débil, media o fuerte).",
             "link1": "https://github.com/Victoria-Brightside/Password_Generator",
             "link2": "https://victoria-brightside.github.io/Password_Generator/"
