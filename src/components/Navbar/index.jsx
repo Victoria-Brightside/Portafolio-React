@@ -38,18 +38,18 @@ function Navbar() {
         <>
             <Nav>
                 <NavLogo to="/">
-                <LogoImg src={logo} alt="logo" />
+                    <LogoImg src={logo} alt="logo" />
                 </NavLogo>
                 <NavbarWrapper open={open}>
-                    <NavLink to="/">Inicio</NavLink>
-                    <NavLink to="/about">Acerca de mí</NavLink>
-                    <NavLink to="/abilities">Habilidades</NavLink>
-                    <NavLink to="/projects">Proyectos</NavLink>
-                    <NavLink to="/education">Educación</NavLink>
-                    <NavLink to="/contact">Contacto</NavLink>
+                    <NavLink to="/" onClick={handleClick}>Inicio</NavLink>
+                    <NavLink to="/about" onClick={handleClick}>Acerca de mí</NavLink>
+                    <NavLink to="/abilities" onClick={handleClick}>Habilidades</NavLink>
+                    <NavLink to="/projects" onClick={handleClick}>Proyectos</NavLink>
+                    <NavLink to="/education" onClick={handleClick}>Educación</NavLink>
+                    <NavLink to="/contact" onClick={handleClick}>Contacto</NavLink>
                 </NavbarWrapper>
                 <Bars onClick={handleClick}>
-                {open ? <FaTimes /> : <FaBars />}
+                    {open ? <FaTimes /> : <FaBars />}
                 </Bars>
 
                 <NavMenu>
