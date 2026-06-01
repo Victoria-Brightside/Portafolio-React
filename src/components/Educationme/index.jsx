@@ -17,6 +17,15 @@ function Educationme() {
                     </article>
 
                     <article className="formacion_card">
+                        <img src="/Portafolio-React/assets/restart.jpg" alt="Logo Restart" className="formacion_img" />
+                        <div className="formacion_info">
+                            <h3>AWS Re/Start</h3>
+                            <p>Morris & Opazo</p>
+                            <p>2025</p>
+                        </div>
+                    </article>
+
+                    <article className="formacion_card">
                         <img src="/Portafolio-React/assets/Alura.jpg" alt="Logo Alura" className="formacion_img" />
                         <div className="formacion_info">
                             <h3>Formación Front-End <br/> y React</h3>

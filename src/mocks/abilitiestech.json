@@ -2,36 +2,41 @@
     "abilities":[
        {
           "id":"1",
+          "language":"Amazon Web Services",
+          "image":"/Portafolio-React/assets/aws.png"
+       },
+       {
+          "id":"2",
           "language":"HTML",
           "image":"/Portafolio-React/assets/html.png"
        },
        {
-          "id":"2",
+          "id":"3",
           "language":"CSS",
           "image":"/Portafolio-React/assets/css.png"
        },
        {
-        "id":"3",
+        "id":"4",
         "language":"Javascript",
         "image":"/Portafolio-React/assets/js.png"
      },
      {
-        "id":"4",
+        "id":"5",
         "language":"React",
         "image":"/Portafolio-React/assets/react.png"
      },
      {
-        "id":"5",
+        "id":"6",
         "language":"Git",
         "image":"/Portafolio-React/assets/git.png"
      },
      {
-        "id":"6",
+        "id":"7",
         "language":"Github",
         "image":"/Portafolio-React/assets/github.png"
      },
      {
-        "id":"7",
+        "id":"8",
         "language":"Mysql",
         "image":"/Portafolio-React/assets/mysql.png"
      }
