@@ -12,6 +12,7 @@ function Aboutme() {
                             Mi trayectoria profesional comenzó en el campo de la <strong>medicina</strong>, donde me especialicé como <strong>médico ortopedista</strong>.
                             Sin embargo, mi interés y pasión por la <strong>tecnología</strong> me llevaron a dar un giro en mi carrera, y actualmente estudio <strong>Ingeniería en Sistemas Computacionales</strong> en la Universidad Virtual del Estado de Guanajuato.<br /><br />
                             Tuve la oportunidad de participar en el <strong>proyecto Oracle One en Alura LATAM (2024)</strong>, donde fortalecí mis habilidades en <strong>programación y desarrollo web</strong>.<br /><br />
+                            En 2025 formé parte del programa <strong>AWS re/Start</strong>, y actualmente soy <strong>Cloud Engineer Trainee en Morris & Opazo</strong>, donde aplico y profundizo mis conocimientos en arquitecturas cloud, IA e infraestructura como código.<br /><br />
                         </p>
                     </article>
                     <article className="about_photo">

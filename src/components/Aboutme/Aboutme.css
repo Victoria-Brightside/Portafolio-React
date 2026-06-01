@@ -7,11 +7,12 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 120vh;
+    min-height: 120vh;
     background-image: url(/public/assets/superstars.jpg);
     background-repeat: round;
     color: aliceblue;
     text-align: center;
+    padding: 3rem 0;
 }
 
 .about_container h1 {
