@@ -10,7 +10,7 @@ function Header() {
                 </video>
                 <div className="rol">
                 <h1 className="me">Victoria Bernal</h1>
-                <p>Front-End Developer</p>
+                <p>Cloud Engineer Trainee</p>
                 </div>
                 </section>
          );

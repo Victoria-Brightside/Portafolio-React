@@ -39,6 +39,16 @@
         "id":"8",
         "language":"Mysql",
         "image":"/Portafolio-React/assets/mysql.png"
+     },
+     {
+        "id":"9",
+        "language":"Python",
+        "image":"/Portafolio-React/assets/python.png"
+     },
+     {
+        "id":"10",
+        "language":"Docker",
+        "image":"/Portafolio-React/assets/docker.png"
      }
     ]
  }  
